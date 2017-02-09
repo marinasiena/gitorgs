@@ -1,0 +1,68 @@
+@import 'partials/reset';
+
+$krona:  'Krona One', sans-serif;
+$pinkpinkpink: '#f4edf1';
+$lgray: #ccc;
+$dgray: #747373;
+
+
+body {
+  background: $pinkpinkpink ;
+    font: 16px/1.6 $krona;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+header {
+  margin: 4vh 0;
+}
+
+button {
+  background: $lgray;
+  border-radius: 10px;
+  font: 1rem/1.6 $krona;
+  padding: 20px;
+  &:hover {
+    background: $dgray;
+    color: white;
+  }
+}
+
+input {
+  font-family: $krona;
+  padding: 20px;
+
+}
+
+.org-wrapper {
+  align-items: center;
+  background: $lgray;
+  border: solid 1px gray;
+  border-radius: 10px;
+  display: flex;
+  margin: 1rem 1rem;
+
+}
+.org-wrapper img {
+  height: 100px;
+  padding: 10px;
+  width: 100px;
+}
+
+.org-wrapper span {
+  color: $dgray;
+  font-size: 2rem;
+  margin-left: 20px;
+}
+
+.namedisplay {
+  color: $dgray;
+  font-size: 2rem;
+  margin-left: 20px;
+  text-align: left;
+}
